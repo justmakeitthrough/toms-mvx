@@ -1,0 +1,1053 @@
+{
+  "common": {
+    "search": "بحث",
+    "filter": "تصفية",
+    "export": "تصدير",
+    "import": "استيراد",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "view": "عرض",
+    "actions": "الإجراءات",
+    "status": "الحالة",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "yes": "نعم",
+    "no": "لا",
+    "confirm": "تأكيد",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "loading": "جاري التحميل...",
+    "noResults": "لا توجد نتائج",
+    "all": "الكل",
+    "description": "الوصف",
+    "bulkActions": "إجراءات جماعية",
+    "selectAll": "تحديد الكل",
+    "deselectAll": "إلغاء التحديد",
+    "selected": "محدد",
+    "itemsPerPage": "عناصر لكل صفحة",
+    "showingItems": "عرض {{from}}-{{to}} من {{total}} عنصر",
+    "page": "صفحة",
+    "of": "من",
+    "fillRequiredFields": "يرجى ملء جميع الحقول المطلوبة",
+    "updateSuccess": "تم التحديث بنجاح",
+    "createSuccess": "تم الإنشاء بنجاح",
+    "deleteSuccess": "تم الحذف بنجاح",
+    "selectAtLeastOne": "يرجى تحديد عنصر واحد على الأقل",
+    "bulkSetInactiveConfirm": "هل أنت متأكد من تعيين {{count}} عنصر/عناصر إلى غير نشط؟",
+    "bulkSetInactiveSuccess": "تم تعيين {{count}} عنصر/عناصر إلى غير نشط",
+    "bulkActivateSuccess": "تم تفعيل {{count}} عنصر/عناصر",
+    "bulkDeleteConfirm": "هل أنت متأكد من حذف {{count}} عنصر/عناصر؟",
+    "bulkDeleteSuccess": "تم حذف {{count}} عنصر/عناصر بنجاح",
+    "manageMasterData": "إدارة البيانات الأساسية",
+    "bulk": "جماعي",
+    "bulkActive": "الوضع الجماعي نشط",
+    "enableBulkActions": "تفعيل الإجراءات الجماعية",
+    "exitBulkMode": "الخروج من الوضع الجماعي",
+    "noPermission": "ليس لديك إذن لتنفيذ هذا الإجراء",
+    "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
+    "perPage": "/ صفحة",
+    "total": "الإجمالي",
+    "email": "البريد الإلكتروني",
+    "contactPerson": "الشخص المسؤول",
+    "contactPersonPlaceholder": "مثال: أحمد محمد",
+    "contactEmail": "البريد الإلكتروني للاتصال",
+    "contactPhone": "هاتف الاتصال",
+    "roomTypes": "أنواع الغرف",
+    "addRoomType": "إضافة نوع غرفة (مثال: قياسي، ديلوكس)",
+    "boardTypes": "أنواع الإقامة",
+    "addBoardType": "إضافة نوع إقامة (مثال: BB، HB، FB، AI)",
+    "currencies": "العملات",
+    "addCurrency": "إضافة عملة (مثال: USD، EUR، TRY)",
+    "createdAt": "تاريخ الإنشاء"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "proposals": "العروض",
+    "vouchers": "القسائم",
+    "masterData": "البيانات الأساسية",
+    "destinations": "الوجهات",
+    "hotels": "الفنادق",
+    "agencies": "الوكالات",
+    "users": "المستخدمون",
+    "globalLookups": "البحث العام",
+    "sources": "المصادر/القنوات",
+    "settings": "الإعدادات",
+    "companyInfo": "معلومات الشركة",
+    "reports": "التقارير"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "welcome": "مرحباً بك في TOMS",
+    "welcomeBack": "مرحباً بعودتك، {{name}}! 👋",
+    "todayOverview": "إليك ما يحدث في عمليات السياحة اليوم.",
+    "overview": "نظرة عامة",
+    "statistics": "الإحصائيات",
+    "recentActivity": "النشاط الأخير",
+    "quickActions": "إجراءات سريعة",
+    "newProposal": "عرض جديد",
+    "viewAllProposals": "عرض جميع العروض",
+    "viewVouchers": "عرض القسائم",
+    "totalProposals": "إجمالي العروض",
+    "newProposals": "عروض جديدة",
+    "confirmedProposals": "عروض مؤكدة",
+    "totalVouchers": "إجمالي القسائم",
+    "totalRevenue": "إجمالي الإيرادات",
+    "recentProposals": "العروض الأخيرة",
+    "noProposals": "لا توجد عروض حتى الآن",
+    "startCreating": "ابدأ بإنشاء عرضك الأول!",
+    "statusNew": "جديد",
+    "statusConfirmed": "مؤكد",
+    "statusCancelled": "ملغى",
+    "awaitingConfirmation": "في انتظار التأكيد",
+    "fromConfirmed": "من {{count}} مؤكد",
+    "fromConfirmedBookings": "من الحجوزات المؤكدة",
+    "performanceOverview": "نظرة عامة على الأداء",
+    "conversionRate": "معدل التحويل",
+    "confirmedThisMonth": "مؤكد هذا الشهر",
+    "proposalsConfirmed": "العروض المؤكدة",
+    "awaitingAction": "في انتظار الإجراء",
+    "pendingProposals": "العروض المعلقة",
+    "activeVouchers": "القسائم النشطة",
+    "serviceBookings": "حجوزات الخدمة",
+    "systemInformation": "معلومات النظام",
+    "yourRole": "دورك",
+    "totalServices": "إجمالي الخدمات",
+    "lastActivity": "آخر نشاط",
+    "noActivityYet": "لا يوجد نشاط بعد"
+  },
+  "proposals": {
+    "title": "العروض",
+    "newProposal": "عرض جديد",
+    "proposalDetails": "تفاصيل العرض",
+    "reference": "المرجع",
+    "source": "المصدر",
+    "agency": "الوكالة",
+    "salesPerson": "مندوب المبيعات",
+    "destination": "الوجهة",
+    "destinations": "الوجهات",
+    "nights": "ليالي",
+    "estimatedNights": "الليالي المقدرة",
+    "status": "الحالة",
+    "createdAt": "تاريخ الإنشاء",
+    "services": "الخدمات",
+    "hotels": "الفنادق",
+    "transportation": "النقل",
+    "flights": "الرحلات الجوية",
+    "rentACar": "تأجير سيارة",
+    "additionalServices": "خدمات إضافية",
+    "financials": "المالية",
+    "totalCost": "الكلفة الإجمالية",
+    "totalSelling": "إجمالي البيع",
+    "totalProfit": "إجمالي الربح",
+    "margin": "الهامش",
+    "commission": "العمولة",
+    "overallMargin": "الهامش الإجمالي",
+    "pdfLanguage": "لغة PDF",
+    "displayCurrency": "عملة العرض",
+    "confirmProposal": "تأكيد العرض",
+    "rejectProposal": "رفض العرض",
+    "generatePDF": "إنشاء PDF",
+    "statuses": {
+      "NEW": "جديد",
+      "CONFIRMED": "مؤكد",
+      "REJECTED": "مرفوض",
+      "CANCELLED": "ملغى"
+    },
+    "filterByStatus": "تصفية حسب الحالة",
+    "searchPlaceholder": "البحث في العروض...",
+    "manageQuotations": "إدارة جميع عروض الأسعار والحجوزات للعملاء",
+    "allStatuses": "جميع الحالات",
+    "filterBySource": "تصفية حسب المصدر",
+    "allSources": "جميع المصادر",
+    "allProposals": "جميع العروض",
+    "resultsCount": "{{count}} نتيجة",
+    "exitBulkMode": "الخروج من الوضع الجماعي",
+    "enableBulkActions": "تفعيل الإجراءات الجماعية",
+    "selectedCount": "{{count}} محدد",
+    "bulkActionsAvailable": "الإجراءات الجماعية متاحة",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء",
+    "viewDetails": "عرض التفاصيل",
+    "noProposalsFound": "لم يتم العثور على عروض",
+    "duplicateSuccess": "تم نسخ العرض بنجاح",
+    "deleteSuccess": "تم حذف العرض بنجاح",
+    "deleteConfirmTitle": "حذف العرض",
+    "deleteConfirmDescription": "هل أنت تأكد من رغبتك في حذف هذا العرض؟ لا يمكن التراجع عن هذا الإجراء.",
+    "bulkDeleteTitle": "حذف عروض متعددة",
+    "bulkDeleteDescription": "هل أنت متأكد من رغبتك في حذف {{count}} عرض؟ لا يمكن التراجع عن هذا الإجراء.",
+    "bulkDeleteSuccess": "تم حذف {{count}} عرض بنجاح",
+    "bulkCancelTitle": "إلغاء عروض متعددة",
+    "bulkCancelDescription": "هل أنت متأكد من رغبتك في إلغاء {{count}} عرض؟",
+    "bulkCancelSuccess": "تم إلغاء {{count}} عرض بنجاح",
+    "bulkConfirmTitle": "تأكيد عروض متعددة",
+    "bulkConfirmDescription": "هل أنت متأكد من رغبتك في تأكيد {{count}} عرض؟",
+    "bulkConfirmSuccess": "تم تأكيد {{count}} عرض بنجاح",
+    "proposalNotFound": "العرض غير موجود",
+    "proposalNotFoundDescription": "العرض الذي تبحث عنه غير موجود.",
+    "backToProposals": "العودة إلى العروض",
+    "pdfGeneratedSuccess": "تم إنشاء PDF بنجاح!",
+    "basicInformation": "المعلومات الأساسية",
+    "referenceNumber": "رقم المرجع",
+    "sourceChannel": "المصدر / القناة",
+    "unknownAgency": "وكالة غير معروفة",
+    "unknownUser": "مستخدم غير معروف",
+    "unknown": "غير معروف",
+    "createdDate": "تاريخ الإنشاء",
+    "cityAndHotel": "المدينة والفندق",
+    "unknownHotel": "فندق غير معروف",
+    "dates": "التواريخ",
+    "roomDetails": "تفاصيل الغرفة",
+    "totalPrice": "السعر الإجمالي",
+    "dateAndVehicle": "التاريخ والمركبة",
+    "vehiclesPlural": "مركبة",
+    "route": "المسار",
+    "dateAndTime": "التاريخ والوقت",
+    "flightDetails": "تفاصيل الرحلة",
+    "carDetails": "تفاصيل السيارة",
+    "dateAndType": "التاريخ والنوع",
+    "daysPlural": "يوم",
+    "financialSummary": "الملخص المالي",
+    "subtotalNetCost": "المجموع الفرعي (التكلفة الصافية)",
+    "totalSalePrice": "إجمالي سعر البيع",
+    "pdfSettings": "إعدادات PDF"
+  },
+  "proposalCreate": {
+    "startFromScratchSuccess": "بدء عرض جديد من الصفر",
+    "selectProposalToCopy": "يرجى تحديد عرض للنسخ",
+    "copiedFrom": "تم النسخ من {{reference}}",
+    "hotelDuplicated": "تم نسخ إدخال الفندق",
+    "editProposal": "تعديل العرض",
+    "newProposal": "عرض جديد",
+    "referenceLabel": "المرجع: {{reference}}",
+    "generateQuote": "إنشاء عرض السعر",
+    "basicInformation": "المعلومات الأساسية",
+    "itineraryBuilder": "منشئ برنامج الرحلة",
+    "summaryAndPricing": "الملخص والتسعير",
+    "proposalDetails": "تفاصيل العرض",
+    "proposalReference": "مرجع العرض",
+    "sourceChannelRequired": "المصدر / القناة *",
+    "selectSource": "اختر المصدر",
+    "searchSources": "��ث عن المصادر...",
+    "agencyRequired": "الوكالة *",
+    "selectAgency": "اختر الوكالة",
+    "searchAgencies": "بحث عن الوكالات...",
+    "noAgenciesFound": "لم يتم العثور على وكالات.",
+    "salesPerson": "مندوب المبيعات",
+    "selectSalesPerson": "اختر مندوب المبيعات",
+    "searchUsers": "بحث عن المستخدمين...",
+    "noUsersFound": "لم يتم العثور على مستخدمين.",
+    "destinationsRequired": "الوجهات *",
+    "selectDestinations": "اختر الوجهات...",
+    "noDestinationsFound": "لم يتم العثور على وجهات.",
+    "estimatedNights": "الليالي المقدرة",
+    "autoCalculatedPlaceholder": "يتم الحساب تلقائياً من برنامج الرحلة",
+    "proposalCurrency": "عملة العرض",
+    "selectCurrency": "اختر العملة",
+    "proposalStartDate": "تاريخ بدء العرض",
+    "proposalEndDate": "تاريخ انتهاء العرض",
+    "continueToItinerary": "المتابعة إلى برنامج الرحلة",
+    "buildYourItinerary": "إنشاء برنامج رحلتك",
+    "nestedForms": "نماذج متداخلة",
+    "tableView": "عرض الجدول",
+    "transport": "النقل",
+    "cars": "السيارات",
+    "services": "الخدمات",
+    "backToBasicInfo": "العودة إلى المعلومات الأساسية",
+    "continueToSummary": "المتابعة إلى الملخص",
+    "quotationSummary": "ملخص العرض والتسعير",
+    "serviceBreakdown": "تفصيل الخدمات",
+    "entries": "إدخالات",
+    "totalNights": "إجمالي الليالي:",
+    "totalDays": "إجمالي الأيام:",
+    "totalPAX": "إجمالي الركاب:",
+    "totalRentalDays": "إجمالي أيام الإيجار:",
+    "totalServiceDays": "إجمالي أيام الخدمة:",
+    "overallMarginPercent": "هامش الربح الإجمالي (%)",
+    "marginPlaceholder": "مثال: 15",
+    "commissionPercent": "العمولة (%)",
+    "commissionPlaceholder": "مثال: 5",
+    "plusMargin": "+ هامش الربح",
+    "plusCommission": "+ العمولة",
+    "pdfOutputSettings": "إعدادات إخراج PDF",
+    "pdfLanguageEnglish": "English",
+    "pdfLanguageArabic": "العربية",
+    "pdfLanguageTurkish": "Türkçe",
+    "backToItinerary": "العودة إلى برنامج الرحلة",
+    "generatePDFQuote": "إنشاء عرض PDF",
+    "createNewProposal": "إنشاء عرض جديد",
+    "createProposalDescription": "اختر كيفية إنشاء هذا العرض. يمكنك البدء من الصفر أو نسخ عرض موجود لتوفير الوقت.",
+    "startFromScratch": "البدء من الصفر",
+    "startFromScratchDescription": "إنشاء عرض جديد بحقول فارغة",
+    "orCopyExisting": "أو النسخ من عرض موجود",
+    "selectProposalToCopyPlaceholder": "اختر عرض للنسخ...",
+    "searchProposals": "بحث عن العروض...",
+    "noProposalsFound": "لم يتم العثور على عروض.",
+    "copySelectedProposal": "نسخ العرض المحدد",
+    "proposalUpdatedSuccess": "تم تحديث العرض بنجاح",
+    "proposalSavedSuccess": "تم حفظ العرض بنجاح",
+    "validation": {
+      "salesPersonRequired": "موظف المبيعات مطلوب",
+      "sourceRequired": "المصدر/القناة مطلوب",
+      "destinationsRequired": "مطلوب وجهة واحدة على الأقل",
+      "currencyRequired": "عملة العرض مطلوبة",
+      "atLeastOneItineraryRequired": "مطلوب إدخال برنامج رحلة واحد كامل على الأقل قبل الانتقال إلى الملخص",
+      "hotelDestinationRequired": "فندق #{{index}}: الوجهة مطلوبة",
+      "hotelNameRequired": "فندق #{{index}}: اسم الفندق مطلوب",
+      "hotelCheckinRequired": "فندق #{{index}}: تاريخ تسجيل الوصول مطلوب",
+      "hotelCheckoutRequired": "فندق #{{index}}: تاريخ المغادرة مطلوب",
+      "hotelRoomTypeRequired": "فندق #{{index}}: نوع الغرفة مطلوب",
+      "hotelBoardTypeRequired": "فندق #{{index}}: نوع الإقامة مطلوب",
+      "hotelNumRoomsRequired": "فندق #{{index}}: عدد الغرف مطلوب",
+      "hotelPriceRequired": "فندق #{{index}}: السعر لكل ليلة مطلوب",
+      "transportDestinationRequired": "نقل #{{index}}: الوجهة مطلوبة",
+      "transportDateRequired": "نقل #{{index}}: التاريخ مطلوب",
+      "transportVehicleRequired": "نقل #{{index}}: نوع المركبة مطلوب",
+      "transportDaysRequired": "نقل #{{index}}: عدد الأيام مطلوب",
+      "transportVehiclesRequired": "نقل #{{index}}: عدد المركبات مطلوب",
+      "transportPriceRequired": "نقل #{{index}}: السعر لكل يوم مطلوب",
+      "flightTypeRequired": "رحلة #{{index}}: نوع الرحلة مطلوب",
+      "flightDepartureRequired": "رحلة #{{index}}: مدينة المغادرة مطلوبة",
+      "flightArrivalRequired": "رحلة #{{index}}: مدينة الوصول مطلوبة",
+      "flightDateRequired": "رحلة #{{index}}: التاريخ مطلوب",
+      "flightPassengersRequired": "رحلة #{{index}}: عدد الركاب مطلوب",
+      "flightPriceRequired": "رحلة #{{index}}: السعر لكل راكب مطلوب",
+      "carDestinationRequired": "تأجير سيارة #{{index}}: الوجهة مطلوبة",
+      "carTypeRequired": "تأجير سيارة #{{index}}: نوع السيارة مطلوب",
+      "carPickupRequired": "تأجير سيارة #{{index}}: موقع الاستلام مطلوب",
+      "carDropoffRequired": "تأجير سيارة #{{index}}: موقع التسليم مطلوب",
+      "carPickupDateRequired": "تأجير سيارة #{{index}}: تاريخ الاستلام مطلوب",
+      "carDropoffDateRequired": "تأجير سيارة #{{index}}: تاريخ التسليم مطلوب",
+      "carNumCarsRequired": "تأجير سيارة #{{index}}: عدد السيارات مطلوب",
+      "carPriceRequired": "تأجير سيارة #{{index}}: السعر لكل يوم مطلوب",
+      "serviceDestinationRequired": "خدمة #{{index}}: الوجهة مطلوبة",
+      "serviceDateRequired": "خدمة #{{index}}: التاريخ مطلوب",
+      "serviceTypeRequired": "خدمة #{{index}}: نوع الخدمة مطلوب",
+      "serviceDaysRequired": "خدمة #{{index}}: عدد الأيام مطلوب",
+      "servicePeopleRequired": "خدمة #{{index}}: عدد الأشخاص مطلوب",
+      "servicePriceRequired": "خدمة #{{index}}: السعر لكل يوم مطلوب"
+    }
+  },
+  "builders": {
+    "hotelEntry": "إدخال فندق #{{number}}",
+    "transportationEntry": "نقل #{{number}}",
+    "flightEntry": "رحلة #{{number}}",
+    "carEntry": "تأجير سيارة #{{number}}",
+    "serviceEntry": "خدمة #{{number}}",
+    "destination": "الوجهة",
+    "destinationRequired": "الوجهة *",
+    "selectDestination": "اختر الوجهة",
+    "noDestinationsSelected": "لم يتم اختيار وجهات في المعلومات الأساسية",
+    "hotel": "الفندق",
+    "hotelRequired": "الفندق *",
+    "selectHotel": "اختر الفندق",
+    "noHotelsAvailable": "لا توجد فنادق متاحة",
+    "checkinDate": "تاريخ تسجيل الوصول",
+    "checkinDateRequired": "تاريخ تسجيل الوصول *",
+    "checkoutDate": "تاريخ تسجيل المغادرة",
+    "checkoutDateRequired": "تاريخ تسجيل المغادرة *",
+    "nights": "الليالي",
+    "roomType": "نوع الغرفة",
+    "roomTypeRequired": "نوع الغرفة *",
+    "selectRoomType": "اختر نوع الغرفة",
+    "noRoomTypesAvailable": "لا توجد أنواع غرف متاحة",
+    "boardType": "نوع الإقامة",
+    "boardTypeRequired": "نوع الإقامة *",
+    "selectBoardType": "اختر نوع الإقامة",
+    "noBoardTypesAvailable": "لا توجد أنواع إقامة متاحة",
+    "numberOfRooms": "عدد الغرف",
+    "numberOfRoomsRequired": "عدد الغرف *",
+    "currency": "العملة",
+    "currencyRequired": "العملة *",
+    "selectCurrency": "اختر العملة",
+    "noCurrenciesAvailable": "لا توجد عملات متاحة",
+    "pricePerNight": "السعر لكل ليلة",
+    "pricePerNightRequired": "السعر لكل ليلة *",
+    "totalPrice": "السعر الإجمالي",
+    "priceAfterMarginCommission": "السعر بعد الهامش والعمولة ({{percent}}%)",
+    "addHotel": "إضافة فندق",
+    "date": "التاريخ",
+    "dateRequired": "التاريخ *",
+    "vehicleType": "نوع المركبة",
+    "vehicleTypeRequired": "نوع المركبة *",
+    "selectVehicle": "اختر المركبة",
+    "description": "الوصف",
+    "descriptionPlaceholder": "مثال: نقل المطار، جولة في المدينة، إلخ",
+    "numberOfDays": "عدد الأيام",
+    "numberOfDaysRequired": "عدد الأيام *",
+    "numberOfVehicles": "عدد المركبات",
+    "numberOfVehiclesRequired": "عدد المركبات *",
+    "pricePerDay": "السعر لكل يوم",
+    "pricePerDayRequired": "السعر لكل يوم *",
+    "addTransportation": "إضافة نقل",
+    "addRow": "إضافة صف",
+    "flightType": "نوع الرحلة",
+    "flightTypeRequired": "نوع الرحلة *",
+    "selectType": "اختر النوع",
+    "departureCity": "مدينة المغادرة",
+    "departureCityRequired": "مدينة المغادرة *",
+    "arrivalCity": "مدينة الوصول",
+    "arrivalCityRequired": "مدينة الوصول *",
+    "departureTime": "وقت المغادرة",
+    "arrivalTime": "وقت الوصول",
+    "numberOfPassengers": "عدد الركاب (PAX)",
+    "numberOfPassengersRequired": "عدد الركاب (PAX) *",
+    "pricePerPassenger": "السعر لكل راكب",
+    "pricePerPassengerRequired": "السعر لكل راكب *",
+    "addFlight": "إضافة رحلة",
+    "carType": "نوع السيارة",
+    "carTypeRequired": "نوع السيارة *",
+    "selectCarType": "اختر نوع السيارة",
+    "pickupLocation": "موقع الاستلام",
+    "pickupLocationRequired": "موقع الاستلام *",
+    "dropoffLocation": "موقع التسليم",
+    "dropoffLocationRequired": "موقع التسليم *",
+    "pickupLocationPlaceholder": "مثال: مطار إسطنبول",
+    "dropoffLocationPlaceholder": "مثال: الفندق",
+    "addCar": "إضافة سيارة",
+    "serviceType": "نوع الخدمة",
+    "serviceTypeRequired": "نوع الخدمة *",
+    "selectServiceType": "اختر نوع الخدمة",
+    "numberOfPeople": "عدد الأشخاص",
+    "numberOfPeopleRequired": "عدد الأشخاص *",
+    "addService": "إضافة خدمة",
+    "tableHeaderNumber": "#",
+    "tableHeaderDest": "الوجهة",
+    "tableHeaderHotel": "الفندق",
+    "tableHeaderCheckin": "الوصول",
+    "tableHeaderCheckout": "المغادرة",
+    "tableHeaderNights": "الليالي",
+    "tableHeaderRoomType": "نوع الغرفة",
+    "tableHeaderBoard": "الإقامة",
+    "tableHeaderRooms": "الغرف",
+    "tableHeaderCur": "العملة",
+    "tableHeaderPriceNt": "السعر/ليلة",
+    "tableHeaderTotal": "الإجمالي",
+    "tableHeaderActions": "الإجراءات",
+    "tableHeaderDestination": "الوجهة",
+    "tableHeaderDate": "التاريخ",
+    "tableHeaderVehicle": "المركبة",
+    "tableHeaderDescription": "الوصف",
+    "tableHeaderDays": "الأيام",
+    "tableHeaderVehicles": "المركبات",
+    "tableHeaderPriceDay": "السعر/يوم",
+    "tableHeaderFlightType": "نوع الرحلة",
+    "tableHeaderDeparture": "المغادرة",
+    "tableHeaderArrival": "الوصول",
+    "tableHeaderDepTime": "وقت المغادرة",
+    "tableHeaderArrTime": "وقت الوصول",
+    "tableHeaderPax": "PAX",
+    "tableHeaderPricePax": "السعر/PAX",
+    "tableHeaderCarType": "نوع السيارة",
+    "tableHeaderPickup": "الاستلام",
+    "tableHeaderDropoff": "التسليم",
+    "tableHeaderServiceType": "نوع الخدمة",
+    "tableHeaderPeople": "الأشخاص"
+  },
+  "vouchers": {
+    "title": "القسائم",
+    "voucherDetails": "تفاصيل القسيمة",
+    "proposalReference": "مرجع العرض",
+    "serviceType": "نوع الخدمة",
+    "source": "المصدر",
+    "guests": "الضيوف",
+    "pax": "PAX",
+    "totalPax": "إجمالي PAX",
+    "adults": "الكبار",
+    "children": "الأطفال",
+    "notes": "ملاحظات",
+    "status": "الحالة",
+    "serviceDetails": "تفاصيل الخدمة",
+    "guestInformation": "معلومات الضيف",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "passportNumber": "رقم جواز السفر",
+    "nationality": "الجنسية",
+    "birthDate": "تاريخ الميلاد",
+    "hotel": "الفندق",
+    "checkin": "تسجيل الوصول",
+    "checkout": "تسجيل المغادرة",
+    "roomType": "نوع الغرفة",
+    "boardType": "نوع الإقامة",
+    "numRooms": "عدد الغرف",
+    "pickupLocation": "موقع الالتقاء",
+    "dropoffLocation": "موقع الإنزال",
+    "vehicleType": "نوع المركبة",
+    "pickupDate": "تاريخ الالتقاء",
+    "pickupTime": "وقت الالتقاء",
+    "flightNumber": "رقم الرحلة",
+    "departure": "المغادرة",
+    "arrival": "الوصول",
+    "carType": "نوع السيارة",
+    "rentalStartDate": "تاريخ بدء الإيجار",
+    "rentalEndDate": "تاريخ انتهاء الإيجار",
+    "description": "الوصف",
+    "numDays": "عدد الأيام",
+    "confirmedProposalsVouchers": "العروض المؤكدة والقسائم",
+    "viewConfirmedProposals": "عرض العروض المؤكدة وإدارة قسائمها",
+    "searchAndFilter": "البحث والتصفية",
+    "searchByProposal": "البحث بمرجع العرض أو الوكالة...",
+    "filterByVoucherStatus": "تصفية حسب حالة القسيمة",
+    "allVoucherStatuses": "جميع حالات القسائم",
+    "totalVouchers": "إجمالي القسائم",
+    "noConfirmedProposals": "لم يتم العثور على عروض مؤكدة",
+    "confirmedProposalsAppear": "ستظهر العروض المؤكدة هنا مع قسائمها",
+    "chooseAction": "اختر إجراء جماعي",
+    "voucherID": "معرف القسيمة",
+    "viewProposalDetails": "عرض تفاصيل العض",
+    "noVouchersGenerated": "لم يتم إنشاء قسائم لهذا العرض بعد",
+    "statuses": {
+      "PENDING_PAYMENT": "في انتظار الدفع",
+      "PAID": "مدفوع",
+      "COMPLETED": "مكتمل",
+      "CANCELLED": "ملغى"
+    },
+    "bulkMode": "الوضع الجماعي",
+    "bulkActive": "الوضع الجماعي نشط",
+    "bulk": "جماعي",
+    "bulkUpdateStatus": "تحديث الحالة الجماعي",
+    "markAsPaid": "تحديد كمدفوع",
+    "markAsCompleted": "إكمال",
+    "markAsCancelled": "إلغاء",
+    "generatePDF": "إنشاء PDF",
+    "generateColorfulPDF": "إنشاء PDF ملون",
+    "searchPlaceholder": "البحث عن قسائم...",
+    "agency": "الوكالة",
+    "destinations": "الوجهات",
+    "vouchers": "القسائم",
+    "exitBulkMode": "الخروج من الوضع الجماعي",
+    "enableBulkActions": "تفعيل الإجراءات الجماعية",
+    "view": "عرض",
+    "actions": "الإجراءات",
+    "selected": "محدد",
+    "chooseBulkAction": "اختر إجراء جماعي",
+    "voucherSingular": "قسيمة",
+    "voucherPlural": "قسائم",
+    "errors": {
+      "pleaseSelectVoucher": "الرجاء تحديد قسيمة واحدة على الأقل.",
+      "proposalNotFound": "لم يتم العثور على العرض",
+      "noVouchersToGenerate": "لا توجد قسائم لإنشاء PDF",
+      "cannotMarkPaid": "لا يمكن تحديد بعض القسائم كمدفوعة من حالتها الحالية. القسائم غير الصالحة:",
+      "cannotCancel": "لا يمكن إلغاء بعض القسائم من حالتها الحالية. القسائم غير الصالحة:",
+      "cannotComplete": "لا يمكن إكمال بعض القسائم من حالتها الحالية. القسائم غير الصالحة:"
+    },
+    "success": {
+      "markedPaid": "تم التحديد كمدفوع بنجاح",
+      "cancelled": "تم الإلغاء بنجاح",
+      "completed": "تم الإكمال بنجاح",
+      "pdfGenerated": "تم إنشاء PDF ملون لـ"
+    },
+    "detail": {
+      "notFound": "القسيمة غير موجودة",
+      "notFoundMessage": "القسيمة التي تبحث عنها غير موجودة.",
+      "backToVouchers": "العودة إلى القسائم",
+      "voucher": "قسيمة",
+      "proposal": "عرض",
+      "save": "حفظ",
+      "emailVoucher": "إرسال القسيمة بالبريد الإلكتروني",
+      "generatePDF": "إنشاء PDF",
+      "voucherInformation": "معلومات القسيمة",
+      "source": "المصدر",
+      "agency": "الوكالة",
+      "salesPerson": "موظف المبيعات",
+      "unknown": "غير معروف",
+      "unknownAgency": "وكالة غير معروفة",
+      "details": "التفاصيل",
+      "destination": "الوجهة",
+      "hotel": "الفندق",
+      "checkin": "تسجيل الوصول",
+      "checkout": "تسجيل المغادرة",
+      "nights": "ليالٍ",
+      "rooms": "الغرف",
+      "boardType": "نوع الإقامة",
+      "totalPrice": "السعر الإجمالي",
+      "unknownHotel": "فندق غير معروف",
+      "date": "التاريخ",
+      "vehicleType": "نوع المركبة",
+      "description": "الوصف",
+      "days": "أيام",
+      "vehicles": "المركبات",
+      "departure": "المغادرة",
+      "arrival": "الوصول",
+      "flightType": "نوع الرحلة",
+      "airline": "شركة الطيران",
+      "departureTime": "وقت المغادرة",
+      "arrivalTime": "وقت الوصول",
+      "passengers": "الركاب",
+      "carType": "نوع السيارة",
+      "pickupDate": "تاريخ الاستلام",
+      "dropoffDate": "تاريخ التسليم",
+      "pickupLocation": "موقع الاستلام",
+      "dropoffLocation": "موقع التسليم",
+      "cars": "السيارات",
+      "guestsInformation": "معلومات الضيوف",
+      "guestDetails": "تفاصيل الضيف",
+      "adults": "الكبار",
+      "children": "الأطفال",
+      "totalPax": "إجمالي PAX",
+      "addGuest": "إضافة ضيف",
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "birthDate": "تاريخ الميلاد",
+      "passportNumber": "رقم جواز السفر",
+      "nationality": "الجنسية",
+      "copyGuest": "نسخ الضيف",
+      "deleteGuest": "حذف الضيف",
+      "notes": "ملاحظات",
+      "notesPlaceholder": "إضافة أي طلبات أو ملاحظات خاصة...",
+      "statusManagement": "إدارة الحالة",
+      "currentStatus": "الحالة الحالية",
+      "statusFlow": "تدفق الحالة:",
+      "statusFlowText": "في انتظار الدفع ← مدفوع ← مكتمل",
+      "internalInformation": "معلومات داخلية",
+      "marginType": "نوع الهامش",
+      "marginValue": "قيمة الهامش",
+      "notIncludedInPDF": "* غير مدرج في PDF",
+      "pdfLanguage": "لغة PDF",
+      "selectPdfLanguage": "اختر اللغة لإنشاء PDF",
+      "english": "الإنجليزية",
+      "arabic": "العربية",
+      "turkish": "التركية",
+      "german": "الألمانية",
+      "serviceTypes": {
+        "hotel": "فندق",
+        "transportation": "النقل",
+        "flight": "رحلة",
+        "rentacar": "تأجير سيارة",
+        "additional": "خدمة إضافية"
+      },
+      "toasts": {
+        "guestDuplicated": "تم نسخ الضيف بنجاح",
+        "voucherUpdated": "تم تحديث القسيمة بنجاح",
+        "voucherEmailed": "تم إرسال القسيمة بالبريد الإلكتروني",
+        "pdfGenerated": "تم إنشاء PDF بنجاح!",
+        "statusUpdated": "تم تحديث الحالة إلى"
+      }
+    }
+  },
+  "destinations": {
+    "title": "الوجهات",
+    "newDestination": "وجهة جديدة",
+    "destinationDetails": "تفاصيل الوجهة",
+    "name": "الاسم",
+    "code": "الرمز",
+    "country": "الدولة",
+    "description": "الوصف",
+    "isActive": "نشط",
+    "createdAt": "تاريخ الإنشاء",
+    "created": "تم الإنشاء",
+    "editDestination": "تعديل الوجهة",
+    "deleteDestination": "حذف الوجهة",
+    "deleteConfirmTitle": "حذف الوجهة",
+    "deleteConfirmDescription": "هل أنت متأكد من حذف هذه الوجهة؟",
+    "searchPlaceholder": "البحث عن وجهات...",
+    "allDestinations": "جميع الوجهات",
+    "total": "الإجمالي",
+    "perPage": "/ صفحة",
+    "noDestinationsFound": "لم يتم العثور على وجهات",
+    "chooseBulkAction": "اختر إجراء جماعي",
+    "setInactive": "تعيين كغير نشط",
+    "namePlaceholder": "مثال: إسطنبول",
+    "countryPlaceholder": "مثال: تركيا",
+    "descriptionPlaceholder": "وصف موجز للوجهة",
+    "addNewDestination": "إضافة وجهة جديدة",
+    "updateDestinationInfo": "تحديث معلومات الوجهة.",
+    "enterDetailsNewDestination": "أدخل تفاصيل الوجهة الجديدة.",
+    "codePlaceholder": "مثال: IST",
+    "activeDestination": "وجهة نشطة",
+    "update": "تحديث",
+    "create": "إنشاء"
+  },
+  "hotels": {
+    "title": "لفنادق",
+    "newHotel": "فندق جديد",
+    "addHotel": "إضافة فندق",
+    "hotelDetails": "تفاصيل الفندق",
+    "name": "الاسم",
+    "hotelName": "اسم الفندق",
+    "destination": "الوجهة",
+    "address": "العنوان",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "starRating": "تصنيف النجوم",
+    "rating": "التصنيف",
+    "contact": "جهة الاتصال",
+    "isActive": "نشط",
+    "createdAt": "تاريخ الإنشاء",
+    "created": "تم الإنشاء",
+    "editHotel": "تعديل الفندق",
+    "deleteHotel": "حذف الفندق",
+    "deleteConfirmTitle": "حذف الفندق",
+    "deleteConfirmDescription": "هل أنت متأكد من حذف هذا الفندق؟",
+    "searchPlaceholder": "البحث بالاسم، العنوان، جهة الاتصال...",
+    "filterByDestination": "تصفية حسب الوجهة",
+    "allHotels": "جميع الفنادق",
+    "allDestinations": "جميع الوجهات",
+    "total": "الإجمالي",
+    "perPage": "/ صفحة",
+    "noHotelsFound": "لم يتم العثور على فنادق",
+    "chooseBulkAction": "اختر إجراء جماعي",
+    "setInactive": "تعيين كغير نشط",
+    "searchAndFilter": "البحث والتصفية",
+    "namePlaceholder": "مثال: فندق جراند",
+    "addressPlaceholder": "العنوان الكامل للفندق",
+    "phonePlaceholder": "+90 123 456 7890",
+    "emailPlaceholder": "hotel@example.com",
+    "selectDestination": "اختر الوجهة",
+    "addNewHotel": "إضافة فندق جديد",
+    "updateHotelInfo": "تحديث معلومات الفندق.",
+    "enterDetailsNewHotel": "أدخل تفاصيل الفندق الجديد.",
+    "activeHotel": "فندق نشط",
+    "update": "تحديث",
+    "create": "إنشاء",
+    "stars": "نجوم"
+  },
+  "agencies": {
+    "title": "الوكالات",
+    "subtitle": "إدارة شركاء الوكالات B2B",
+    "newAgency": "وكالة جديدة",
+    "addAgency": "إضافة وكالة",
+    "agencyDetails": "تفاصيل الوكالة",
+    "name": "الاسم",
+    "agencyName": "اسم الوكالة",
+    "contactPerson": "الشخص المسؤول",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "address": "العنوان",
+    "country": "البلد",
+    "emailPhone": "البريد الإلكتروني / الهاتف",
+    "commissionRate": "نسبة العمولة",
+    "commissionRateLabel": "نسبة العمولة (%)",
+    "isActive": "نشط",
+    "createdAt": "تاريخ الإنشاء",
+    "editAgency": "تعديل الوكالة",
+    "deleteAgency": "حذف الوكالة",
+    "deleteConfirmTitle": "حذف الوكالة",
+    "deleteConfirmDescription": "هل أنت متأكد من حذف هذه الوكالة؟",
+    "searchPlaceholder": "البحث بالاسم، البلد، أو الاتصال...",
+    "searchAgencies": "البحث عن الوكالات",
+    "allAgencies": "جميع الوكالات",
+    "noAgenciesFound": "لم يتم العثور على وكالات",
+    "chooseBulkAction": "اختر إجراءً جماعياً",
+    "setInactive": "تعيين غير نشط",
+    "addNewAgency": "إضافة وكالة جديدة",
+    "updateAgencyInfo": "تحديث معلومات الوكالة أدناه.",
+    "enterDetailsNewAgency": "أدخل تفاصيل الوكالة الجديدة.",
+    "namePlaceholder": "مثال: وكالة إسطنبول للسفر",
+    "countryPlaceholder": "مثال: تركيا",
+    "emailPlaceholder": "مثال: contact@agency.com",
+    "phonePlaceholder": "مثال: +90 212 345 6789",
+    "commissionPlaceholder": "مثال: 10",
+    "activeAgency": "وكالة نشطة",
+    "update": "تحديث",
+    "create": "إنشاء"
+  },
+  "users": {
+    "title": "إدارة المستخدمين",
+    "subtitle": "إدارة مستخدمي النظام والصلاحيات",
+    "newUser": "مستخدم جديد",
+    "addUser": "إضافة مستخدم",
+    "userDetails": "تفاصيل المستخدم",
+    "name": "الاسم",
+    "fullName": "الاسم الكامل",
+    "email": "البريد الإلكتروني",
+    "emailAddress": "عنوان البريد الإلكتروني",
+    "role": "الدور",
+    "isActive": "نشط",
+    "createdAt": "تاريخ الإنشاء",
+    "created": "تم الإنشاء",
+    "editUser": "تعديل المستخدم",
+    "deleteUser": "حذف المستخدم",
+    "deleteConfirmTitle": "حذف المستخدم",
+    "deleteConfirmDescription": "هل أنت متأكد من حذف هذا المستخدم؟",
+    "searchPlaceholder": "البحث بالاسم أو البريد الإلكتروني...",
+    "searchAndFilter": "البحث والتصفية",
+    "filterByRole": "تصفية حسب الدور",
+    "allRoles": "جميع الأدوار",
+    "allUsers": "جميع المستخدمين",
+    "noUsersFound": "لم يتم العثور على مستخدمين",
+    "chooseBulkAction": "اختر إجراءً جماعياً",
+    "setInactive": "تعيين غير نشط",
+    "you": "أنت",
+    "accessDenied": "تم رفض الوصول",
+    "noPermissionMessage": "ليس لديك إذن لإدارة المستخدمين. اتصل بالمسؤول.",
+    "cannotDeleteOwn": "لا يمكنك حذف حساب المستخدم الخاص بك",
+    "cannotDeactivateOwn": "لا يمكنك تعطيل حساب المستخدم الخاص بك",
+    "addNewUser": "إضافة مستخدم جديد",
+    "updateUserInfo": "تحديث معلومات المستخدم أدناه.",
+    "enterDetailsNewUser": "أدخل تفاصيل المستخدم الجديد.",
+    "namePlaceholder": "مثال: أحمد محمد",
+    "emailPlaceholder": "مثال: ahmed@toms.com",
+    "roleDescription": "يحدد الدور الميزات التي يمكن للمستخدم الوصول إليها",
+    "activeUserCanLogin": "مستخدم نشط (يمكنه تسجيل الدخول)",
+    "update": "تحديث",
+    "create": "إنشاء"
+  },
+  "globalLookups": {
+    "title": "البحث العام",
+    "subtitle": "إدارة جداول البحث العامة وأنواع الخدمات",
+    "newLookup": "بحث جديد",
+    "lookupDetails": "تفاصيل البحث",
+    "category": "الفئة",
+    "name": "الاسم",
+    "description": "الوصف",
+    "createdAt": "تاريخ الإنشاء",
+    "serviceTypes": "أنواع الخدمات",
+    "serviceTypesDesc": "إدارة فئات الخدمات الإضافية",
+    "vehicleTypes": "أنواع المركبات",
+    "vehicleTypesDesc": "إدارة فئات المركبات",
+    "flightTypes": "أنواع الرحلات",
+    "flightTypesDesc": "إدارة أنواع تصنيف الرحلات",
+    "carTypes": "أنواع السيارات",
+    "carTypesDesc": "إدارة فئات السيارات المستأجرة",
+    "editLookup": "تعديل البحث",
+    "deleteLookup": "حذف البحث",
+    "deleteConfirmTitle": "حذف البحث",
+    "deleteConfirmDescription": "هل أنت متأكد من حذف هذا العنصر؟",
+    "searchPlaceholder": "بحث...",
+    "filterByCategory": "تصفية حسب الفئة",
+    "addItem": "إضافة عنصر",
+    "addNewItem": "إضافة عنصر جديد",
+    "editItem": "تعديل العنصر",
+    "updateItemInfo": "تحديث معلومات العنصر أدناه.",
+    "enterDetailsNewItem": "أدخل تفاصيل العنصر الجديد.",
+    "allItems": "جميع العناصر",
+    "items": "عناصر",
+    "noItemsFound": "لم يتم العثور على عناصر",
+    "namePlaceholder": "مثال: الدرجة الاقتصادية",
+    "descriptionPlaceholder": "وصف اختياري"
+  },
+  "sources": {
+    "title": "المصادر/القنوات",
+    "subtitle": "تتبع مصادر الأعمال - B2C و B2B وفريق المبيعات",
+    "newSource": "مصدر جديد",
+    "sourceDetails": "تفاصيل المصدر",
+    "name": "الاسم",
+    "description": "الوصف",
+    "isActive": "نشط",
+    "createdAt": "تاريخ الإنشاء",
+    "created": "تم الإنشاء",
+    "editSource": "تعديل المصدر",
+    "deleteSource": "حذف المصدر",
+    "deleteConfirmTitle": "حذف المصدر",
+    "deleteConfirmDescription": "هل أنت متأكد من حذف هذا المصدر؟",
+    "searchPlaceholder": "البحث في المصادر...",
+    "addSource": "إضافة مصدر",
+    "allSources": "جميع المصادر",
+    "sourceName": "اسم المصدر",
+    "noSourcesFound": "لم يتم العثور على مصادر",
+    "selectedCount": "تم تحديد {{count}} مصدر/مصادر",
+    "activate": "تفعيل",
+    "deactivate": "إلغاء التفعيل",
+    "addNewSource": "إضافة مصدر جديد",
+    "updateSourceInfo": "تحديث معلومات المصدر أدناه",
+    "enterDetailsNewSource": "أدخل تفاصيل المصدر الجديد",
+    "sourceNameRequired": "اسم المصدر *",
+    "namePlaceholder": "مثال: البريد الإلكتروني، واتساب، فيسبوك",
+    "descriptionPlaceholder": "وصف موجز لهذا المصدر",
+    "activeSource": "نشط",
+    "pleaseEnterName": "يرجى إدخال اسم المصدر"
+  },
+  "masterData": {
+    "title": "إدارة البيانات الأساسية",
+    "subtitle": "إدارة جميع البيانات الأساسية بما في ذلك الوجهات والفنادق والوكالات",
+    "manage": "إدارة",
+    "breakdown": "التوزيع",
+    "destinationsTitle": "الوجهات",
+    "destinationsDesc": "إدارة وجهات السفر والمواقع",
+    "hotelsTitle": "الفنادق",
+    "hotelsDesc": "إدارة عقارات الفنادق وأماكن الإقامة",
+    "agenciesTitle": "الوكالات",
+    "agenciesDesc": "إدارة شركاء وكالات السفر B2B",
+    "sourcesTitle": "المصادر/القنوات",
+    "sourcesDesc": "تتبع مصادر B2C و B2B وفريق المبيعات",
+    "lookupsTitle": "البحث العام",
+    "lookupsDesc": "إدارة أنواع الخدمات وأنواع المركبات والمزيد",
+    "vehicleTypesBreakdown": "أنواع المركبات",
+    "flightTypesBreakdown": "أنواع الرحلات",
+    "carTypesBreakdown": "أنواع السيارات",
+    "serviceTypesBreakdown": "أنواع الخدمات",
+    "aboutTitle": "حول البيانات الأساسية",
+    "aboutDesc": "انقر على كل قسم لمعرفة المزيد حول إدارة بياناتك الأساسية",
+    "destinationsAccordionTitle": "الوجهات",
+    "destinationsAccordionSubtitle": "المواقع الجغرافية والمناطق",
+    "destinationsContentDesc": "حدد المدن والمناطق التي تعمل فيها خدمات السياحة. تعمل كل وجهة كمرساة جغرافية لعملياتك.",
+    "destinationsContentPoint1": "ربط فنادق متعددة بكل وجهة",
+    "destinationsContentPoint2": "تتبع الخدمات المتاحة لكل موقع",
+    "destinationsContentPoint3": "تنظيم العروض حسب المنطقة الجغرافية",
+    "destinationsContentPoint4": "التصفية والبحث حسب الوجهة عبر النظام",
+    "hotelsAccordionTitle": "الفنادق",
+    "hotelsAccordionSubtitle": "قاعدة بيانات عقارات الإقامة",
+    "hotelsContentDesc": "الحفاظ على قاعدة بيانات شاملة لعقارات الفنادق ومقدمي الإقامة.",
+    "hotelsContentPoint1": "يجب ربط كل فندق بوجهة",
+    "hotelsContentPoint2": "تضمين تفاصيل الاتصال وتصنيفات النجوم والعناوين",
+    "hotelsContentPoint3": "تعيين حالة نشط/غير نشط لإدارة التوفر",
+    "hotelsContentPoint4": "يستخدم في العروض والقسائم وإنشاء PDF",
+    "hotelsContentPoint5": "تتبع علاقات الفنادق واتفاقيات الخدمة",
+    "agenciesAccordionTitle": "الوكالات",
+    "agenciesAccordionSubtitle": "شركاء وكالات السفر B2B",
+    "agenciesContentDesc": "إدارة شركاء وكالات السفر B2B وعلاقات العملاء.",
+    "agenciesContentPoint1": "تتبع معدلات العمولة وشروط الدفع",
+    "agenciesContentPoint2": "تخزين معلومات الاتصال والتفاصيل التجارية",
+    "agenciesContentPoint3": "ربط العروض والقسائم بالوكالات",
+    "agenciesContentPoint4": "مراقبة العلاقات التجارية والأداء",
+    "agenciesContentPoint5": "إنشاء تقارير ووثائق خاصة بالوكالات",
+    "sourcesAccordionTitle": "المصادر/القنوات",
+    "sourcesAccordionSubtitle": "مصادر العملاء المحتملين وقنوات التسويق",
+    "sourcesContentDesc": "تتبع من أين يأتي عملك - سواء كان عملاء مباشرين أو وكالات شريكة أو من خلال فريق المبيعات.",
+    "sourcesContentPoint1": "التمييز بين حجوزات B2C (العميل المباشر) و B2B (وكالة السفر)",
+    "sourcesContentPoint2": "تتبع الأعمال التي يجلبها موظفو المبيعات والمديرين",
+    "sourcesContentPoint3": "تحليل المصادر التي تحقق أكبر قدر من الإيرادات",
+    "sourcesContentPoint4": "توحيد تتبع المصدر عبر العروض والقسائم",
+    "sourcesContentPoint5": "إنشاء تقارير عن أداء مصدر الأعمال",
+    "sourcesContentPoint6": "تعيين حالة نشط/غير نشط لإدارة المصدر",
+    "lookupsAccordionTitle": "البحث العام",
+    "lookupsAccordionSubtitle": "بيانات مرجعية على مستوى النظام",
+    "lookupsContentDesc": "قيم القوائم المنسدلة المركزية والبيانات المرجعية على مستوى النظام للحصول على الاتساق.",
+    "lookupsContentVehicleDesc": "الحافلات والميني فان والسيارات للخدمات اللوجستية",
+    "lookupsContentFlightDesc": "فئات الرحلات المحلية والدولية والمستأجرة",
+    "lookupsContentCarDesc": "الاقتصادية والفاخرة وسيارات الدفع الرباعي لخدمات التأجير",
+    "lookupsContentServiceDesc": "خدمات إضافية مثل الجولات والمرشدين والنقل",
+    "lookupsContentPoint5": "يضمن اتساق البيانات عبر العروض والقسائم",
+    "bestPracticesTitle": "أفضل الممارسات",
+    "bestPracticesSubtitle": "نصائح لإدارة البيانات الأساسية بفعالية",
+    "bestPracticesPoint1": "حافظ على تحديث البيانات الأساسية لضمان عروض وقسائم دقيقة",
+    "bestPracticesPoint2": "استخدم الوضع الجماعي للتحديثات الفعالة عبر سجلات متعددة",
+    "bestPracticesPoint3": "عيّن حالة غير نشط بدلاً من الحذف للحفاظ على البيانات التاريخية",
+    "bestPracticesPoint4": "راجع ونظف الإدخالات غير المستخدمة أو القديمة بانتظام",
+    "bestPracticesPoint5": "حافظ على اتفاقيات تسمية متسقة لسهولة البحث"
+  },
+  "companyInfo": {
+    "title": "معلومات الشركة",
+    "companyName": "اسم الشركة",
+    "address": "العنوان",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "website": "الموقع الإلكتروني",
+    "taxNumber": "الرقم الضريبي",
+    "logo": "الشعار",
+    "updateInfo": "تحديث المعلومات",
+    "successMessage": "تم تحديث معلومات الشركة بنجاح"
+  },
+  "companySettings": {
+    "title": "إعدادات الشركة",
+    "subtitle": "إدارة معلومات شركتك وعلامتها التجارية",
+    "companyInformation": "معلومات الشركة",
+    "companyName": "اسم الشركة",
+    "companyNameRequired": "اسم الشركة *",
+    "companyNamePlaceholder": "أدخل اسم الشركة",
+    "emailAddress": "عنوان البريد الإلكتروني",
+    "emailAddressRequired": "عنوان البريد الإلكتروني *",
+    "emailPlaceholder": "info@company.com",
+    "phoneNumber": "رقم الهاتف",
+    "phoneNumberRequired": "رقم الهاتف *",
+    "phonePlaceholder": "+966 11 234 5678",
+    "website": "الموقع الإلكتروني",
+    "websitePlaceholder": "www.company.com",
+    "addressInformation": "معلومات العنوان",
+    "streetAddress": "عنوان الشارع",
+    "streetAddressRequired": "عنوان الشارع *",
+    "streetAddressPlaceholder": "123 شارع الملك فهد",
+    "city": "المدينة",
+    "cityRequired": "المدينة *",
+    "cityPlaceholder": "الرياض",
+    "country": "البلد",
+    "countryRequired": "البلد *",
+    "countryPlaceholder": "المملكة العربية السعودية",
+    "postalCode": "الرمز البريدي",
+    "postalCodePlaceholder": "12345",
+    "businessInformation": "المعلومات التجارية",
+    "taxId": "الرقم الضريبي / رقم ضريبة القيمة المضافة",
+    "taxIdPlaceholder": "SA123456789",
+    "licenseNumber": "رقم رخصة السياحة",
+    "licenseNumberPlaceholder": "TL-1234",
+    "defaultCurrency": "العملة الافتراضية",
+    "defaultCurrencyRequired": "العملة الافتراضية *",
+    "currencyPlaceholder": "SAR",
+    "currencyHelpText": "رمز العملة ISO (مثال: USD، EUR، GBP، SAR)",
+    "loadMockupData": "تحميل بيانات تجريبية",
+    "saveChanges": "حفظ التغييرات",
+    "saveSuccess": "تم حفظ إعدادات الشركة بنجاح",
+    "mockupLoadedSuccess": "تم تحميل بيانات الشركة التجريبية بنجاح",
+    "noteLabel": "ملاحظة:",
+    "noteText": "ستظهر هذه المعلومات في جميع مستندات PDF والعروض والقسائم المُنشأة. تأكد من صحة جميع التفاصيل وتحديثها."
+  },
+  "profileSettings": {
+    "title": "إعدادات الملف الشخصي",
+    "subtitle": "إدارة حسابك واشتراكك",
+    "accountInformation": "معلومات الحساب",
+    "accountInformationDesc": "تحديث معلوماتك الشخصية وتفاصيل الاتصال",
+    "fullName": "الاسم الكامل",
+    "fullNameRequired": "الاسم الكامل *",
+    "fullNamePlaceholder": "أدخل اسمك الكامل",
+    "emailAddress": "عنوان البريد الإلكتروني",
+    "emailAddressRequired": "عنوان البريد الإلكتروني *",
+    "emailPlaceholder": "email@company.com",
+    "phoneNumber": "رقم الهاتف",
+    "phonePlaceholder": "+966 50 123 4567",
+    "company": "الشركة",
+    "companyPlaceholder": "اسم شركتك",
+    "role": "الدور",
+    "defaultRole": "مستخدم",
+    "changePassword": "تغيير كلمة المرور",
+    "saveChanges": "حفظ التغييرات",
+    "profileUpdatedSuccess": "تم تحديث الملف الشخصي بنجاح",
+    "passwordChangeSoon": "ستتوفر وظيفة تغيير كلمة المرور قريباً",
+    "subscriptionPlan": "خطة الاشتراك",
+    "subscriptionPlanDesc": "إدارة اشتراكك ومعلومات الفوترة",
+    "plan": "الخطة",
+    "active": "نشط",
+    "startDate": "تاريخ البداية",
+    "nextRenewal": "التجديد التالي",
+    "planFeatures": "ميزات الخطة",
+    "featureUnlimitedProposals": "عروض غير محدودة",
+    "featureMultiUser": "وصول متعدد المستخدمين (حتى 10 مستخدمين)",
+    "featureAdvancedReporting": "تقارير متقدمة",
+    "featureApiAccess": "وصول API",
+    "featurePrioritySupport": "دعم ذو أولوية",
+    "featureCustomBranding": "علامة تجارية مخصصة",
+    "manageSubscription": "إدارة الاشتراك",
+    "viewInvoices": "عرض الفواتير",
+    "invoiceHistorySoon": "سيتوفر سجل الفواتير قريباً",
+    "redirectingSubscription": "إعادة التوجيه إلى إدارة الاشتراك...",
+    "currentUsage": "الاستخدام الحالي",
+    "currentUsageDesc": "تتبع استخدامك الشهري والحدود",
+    "proposals": "العروض",
+    "teamMembers": "أعضاء الفريق",
+    "storage": "التخزين",
+    "accountStatus": "حالة الحساب",
+    "accountType": "نوع الحساب",
+    "status": "الحالة",
+    "daysRemaining": "الأيام المتبقية",
+    "days": "أيام",
+    "autoRenewal": "التجديد التلقائي",
+    "enabled": "مفعّل"
+  },
+  "messages": {
+    "success": {
+      "created": "تم إنشاء {{item}} بنجاح",
+      "updated": "تم تحديث {{item}} بنجاح",
+      "deleted": "تم حذف {{item}} بنجاح",
+      "saved": "تم الحفظ بنجاح"
+    },
+    "error": {
+      "failed": "فشلت العملية",
+      "required": "هذا الحقل مطلوب",
+      "invalid": "إدخال غير صحيح"
+    },
+    "confirm": {
+      "delete": "هل أنت متأكد من حذف هذا العنصر؟",
+      "cancel": "هل أنت متأكد من الإلغاء؟"
+    }
+  },
+  "languages": {
+    "en": "الإنجليزية",
+    "tr": "التركية",
+    "de": "الألمانية",
+    "ar": "العربية"
+  }
+}
